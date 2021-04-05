@@ -46,7 +46,7 @@ phases:
             name: $_PROJECT_NAME
             labels:
               app: $_PROJECT_NAME
-          spec:
+          spec: 
             ports:
               - port: 8080
                 targetPort: 8080
